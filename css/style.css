@@ -20,7 +20,7 @@ body{
 }
 
 #xoops_theme_head{
-  height:100px;
+  min-height:100px;
   padding:0px;
   margin:0px;
   overflow: hidden;
@@ -82,13 +82,14 @@ ul#xoops_theme_navbar>li>a:hover{
 }
 
 #theme_foot{
+  min-height:85px;
   margin:0px;
   padding:0px;
   background-image: url(../images/templatemo_footer_wrapper.jpg);
 }
 
 #xoops_theme_foot{
-  height:85px;
+  min-height:85px;
   width:960px;
   margin:0px auto;
   background-image: url(../images/templatemo_footer.jpg);
