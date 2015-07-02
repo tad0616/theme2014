@@ -1,0 +1,133 @@
+body{
+  font-family: 微軟正黑體;
+  padding:0px;
+  margin:0px;
+  background-color: #fff;
+  background-image: url(../images/templatemo_body.jpg);
+  background-repeat: repeat-x;
+  background-position: top
+}
+
+#xoops_theme_wrap{
+  background-image:url(../images/templatemo_wrapper.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+#xoops_theme_container{
+  width:960px;
+  margin:0px auto;
+}
+
+#xoops_theme_head{
+  height:100px;
+  padding:0px;
+  margin:0px;
+  overflow: hidden;
+}
+
+#site_name{
+  font-size:2.5em;
+  color:white;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+  margin:5px 0px;
+  height:60px;
+  line-height: 60px;
+  padding:0px;
+  margin:0px;
+}
+
+#site_slogan{
+  font-size:1.2 em;
+  font-weight: bold;
+  color:rgba(255,255,255,0.5);
+  height:30px;
+  line-height: 30px;
+  padding:0px;
+  margin:0px;
+}
+
+ul#xoops_theme_navbar{
+  height:45px;
+  line-height: 45px;
+  padding:0px;
+  margin:0px;
+}
+
+ul#xoops_theme_navbar>li{
+  list-style-type:none;
+  display: inline-block;
+}
+
+ul#xoops_theme_navbar>li>a{
+  color: #333;
+  text-shadow: 1px 1px 1px white;
+  text-decoration: none;
+  height:45px;
+  line-height: 45px;
+  padding:0px 20px;
+  background: url(../images/templatemo_menu_divider.png) no-repeat scroll right center transparent;
+  font-weight: bold;
+}
+
+
+ul#xoops_theme_navbar>li>a:hover{
+  color: white;
+  text-shadow: 1px 1px 1px #333;
+}
+
+#xoops_theme_content{
+  box-shadow: 1px 1px 2px rgba(20%,20%,40%,0.5);
+}
+
+#theme_foot{
+  margin:0px;
+  padding:0px;
+  background-image: url(../images/templatemo_footer_wrapper.jpg);
+}
+
+#xoops_theme_foot{
+  height:85px;
+  width:960px;
+  margin:0px auto;
+  background-image: url(../images/templatemo_footer.jpg);
+}
+
+#foot_content{
+  margin:0px auto;
+  font-size:12px;
+  color:white;
+  line-height: 2em;
+  text-align: center;
+  padding:10px 0px;
+}
+
+.blockTitle{
+  font-size:24px;
+  color:#84BBF2;
+  margin:20px 0px 10px;
+}
+
+div#xoops_theme_right{
+  padding:0px 10px;
+}
+
+div#xoops_theme_left{
+  padding:0px 10px;
+}
+
+a.block_config {
+  position:absolute;
+  top:10px;
+  right:10px;
+  display: block;
+  float: right;
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/block_config.png);
+}
+
+a.block_config:hover {
+  background-image: url(../img/block_config_hover.png);
+}
