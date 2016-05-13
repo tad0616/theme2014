@@ -12,7 +12,7 @@ $theme_kind_arr = 'html';
 $menu_var_kind = 'all';
 
 //額外顏色設定 如： bootstrap3/themes/light/Cerulean
-$theme_color = 'bootstrap';
+$theme_color = 'bootstrap3';
 
 /*
 tabs-1 版面基礎設定
@@ -27,7 +27,7 @@ $config_enable['theme_type'] = array('enable' => '1', 'min' => '', 'max' => '', 
 $config_enable['theme_width'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '1', 'default' => '960');
 
 //內容區顏色[theme_type_x.html]
-$config_enable['base_color'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'transparent');
+$config_enable['base_color'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => '#ffffff');
 
 //左區域顏色[theme_type_1.html]
 $config_enable['lb_color'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'transparent');
@@ -75,13 +75,13 @@ tabs-2 背景圖
 $config_tabs[2] = 0;
 
 //上傳背景圖[theme_css.html]，值：可指定置於「themes/佈景/images/bg/」下的某一檔案名稱
-$config_enable['bg_img'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'dot.jpg');
+$config_enable['bg_img'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'templatemo_body.jpg');
 
 //背景顏色[theme_css.html]
 $config_enable['bg_color'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => '#FFFFFF');
 
 //背景重複[theme_css.html]，值： repeat （重複）, repeat-x （水平重複）, repeat-y （垂直重複）, no-repeat （不重複）
-$config_enable['bg_repeat'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'repeat');
+$config_enable['bg_repeat'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'repeat-x');
 
 //背景模式[theme_css.html]，值： scroll （捲動）,fixed （固定）
 $config_enable['bg_attachment'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => 'scroll');
