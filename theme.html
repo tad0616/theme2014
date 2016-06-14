@@ -59,6 +59,14 @@
         <div id="xoops_theme_foot">
           <div id="foot_content">
             <!--頁尾區-->
+
+            <div class="row">
+              <div class="col-md-12">
+              <{if $xoops_isadmin}>
+                <a href="<{$xoops_url}>/modules/system/admin.php?fct=preferences&op=show&confcat_id=3" class="block_config"></a>
+              <{/if}>
+              </div>
+            </div>
             <{$xoops_footer}>
           </div>
         </div>

@@ -2,10 +2,10 @@
 //佈景種類是否可自訂
 $theme_change = 0;
 
-//預設佈景種類 bootstrap , bootstrap3 , html
+//預設佈景種類 bootstrap3 , html , mix
 $theme_kind = 'html';
 
-//可選用佈景種類 bootstrap , bootstrap3 , html , mix （$theme_change=1 時才有用）
+//可選用佈景種類 bootstrap3 , html , mix （$theme_change=1 時才有用）
 $theme_kind_arr = 'html';
 
 //引入哪些選單？ all(含 my_menu,admin,user),my_menu,admin,user
@@ -127,6 +127,9 @@ $config_enable['logo_bottom'] = array('enable' => '0', 'min' => '', 'max' => '',
 
 //Logo離左邊距離[logo.html]，值：數值，單位一律為 px
 $config_enable['logo_left'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '0', 'default' => '');
+
+//Logo置中[logo.html]，值：1,0
+$config_enable['logo_center'] = array('enable' => '0', 'min' => '', 'max' => '', 'require' => '', 'default' => '');
 
 /*
 tabs-5 區塊標題列
