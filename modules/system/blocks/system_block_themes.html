@@ -1,5 +1,1 @@
-<div class="xoops-theme-select">
-    <form class="form-horizontal" role="form" action="<{xoAppUrl index.php}>" method="post">
-        <{$block.theme_select}>
-    </form>
-</div>
+<{includeq file="$xoops_rootpath/modules/tadtools/themes_common/blocks_tpl/system/blocks/system_block_themes.tpl"}>
