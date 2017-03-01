@@ -41,7 +41,6 @@
         </div>
 
           <div class="row" id="xoops_theme_content">
-            <div class="col-md-12">
               <{includeq file="$xoops_rootpath/modules/tadtools/themes3_tpl/menu/cssmenu/menu.html"}>
 
               <{if $slide_width > 0}>
@@ -50,7 +49,6 @@
 
               <{includeq file="$xoops_rootpath/modules/tadtools/themes3_tpl/$theme_type.html"}>
 
-            </div>
           </div>
       </div>
 
@@ -61,7 +59,7 @@
             <!--頁尾區-->
 
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-sm-12">
               <{if $xoops_isadmin}>
                 <a href="<{$xoops_url}>/modules/system/admin.php?fct=preferences&op=show&confcat_id=3" class="block_config"></a>
               <{/if}>
